@@ -18,7 +18,7 @@ our vinyl
 
 ## Get your mojo workin'!
 
-Voted one of Birmingham's most vibrant music venues. We here at Jimi's proud to support acts that share our passion for blues music. Be part of our movement!
+Voted one of Birmingham's most vibrant music venues. We here at Jimi's proud to support acts that share our passion for blues music. Be part a of our movement!
 
 our live music
 

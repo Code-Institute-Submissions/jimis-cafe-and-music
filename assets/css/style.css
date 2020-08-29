@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* TYPOGRAPHY */
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* OVERALL LAYOUT */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+/* HEADER */
+
+header {
+    background-color: #f3bd45;
+    padding: .5em 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.site-title-graphic {
+    margin: 0 auto;
+    width: 40%;
+    min-width: 250px;
+}
+
+.site-title-graphic-small {
+    width: 180px;
+}
+
+/* NAVIGATION */
+
+.my-nav {
+    padding: 1em 0;
+}
+
+.my-nav ul {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-nav li {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.my-nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* CAROUSEL */
+
+.carousel-image {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+}
+
