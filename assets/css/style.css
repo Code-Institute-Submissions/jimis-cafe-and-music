@@ -10,6 +10,12 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+h1,
+h2,
+p {
+    margin: 0;
+}
+
 /* OVERALL LAYOUT */
 
 .container {
@@ -29,14 +35,29 @@ header {
     background-color: #f3bd45;
 }
 
-.site-title-graphic {
-    margin: 0 auto;
-    width: 35%;
-    min-width: 250px;
+.site-title {
+    font-family: 'Denk One', sans-serif;
+    color: #d44337;
+    font-size: 116px;
 }
 
-.site-title-graphic-small {
-    width: 180px;
+.site-title-tagline {
+    font-family: 'Open Sans', sans-serif;
+    color: #914d00;
+    font-size: 22px;
+    letter-spacing: 1px;
+    word-spacing: .3em;
+    margin: -.7em 0 .7em 0;
+}
+
+.site-title,
+.site-title-tagline {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-small {
+    font-size: 48px;
 }
 
 /* NAVIGATION */
@@ -57,9 +78,16 @@ header {
 }
 
 .my-nav li {
-    font-size: 1.25rem;
     text-align: center;
     font-size: 1.2rem;
+}
+
+/* to space out links in dropdown */
+
+@media screen and (max-width: 991px) {
+    .my-nav li {
+        margin: .6em 0;
+    }
 }
 
 .my-nav a {
@@ -106,7 +134,8 @@ header {
 
 .gallery-images {
     display: grid;
-    grid-template: 300px 300px / repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 300px 300px;
     justify-items: center;
     grid-gap: 1em;
 }
