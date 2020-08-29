@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;700&family=Denk+One&display=swap');
 
 * {
     box-sizing: border-box;
@@ -25,14 +25,13 @@ img {
 /* HEADER */
 
 header {
-    background-color: #f3bd45;
     padding: .5em 0;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #f3bd45;
 }
 
 .site-title-graphic {
     margin: 0 auto;
-    width: 40%;
+    width: 35%;
     min-width: 250px;
 }
 
@@ -44,6 +43,10 @@ header {
 
 .my-nav {
     padding: 1em 0;
+    font-family: 'Denk One', sans-serif;
+    letter-spacing: 1px;
+    background-color: #fff;
+    box-shadow: 0px 15px 30px rgba(140, 140, 140, 0.146);
 }
 
 .my-nav ul {
@@ -56,12 +59,19 @@ header {
 .my-nav li {
     font-size: 1.25rem;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .my-nav a {
     text-transform: uppercase;
     text-decoration: none;
-    color: inherit;
+    color: rgba(0, 0, 0, .8);
+    transition: all 250ms;
+}
+
+.my-nav a:hover,
+.my-nav a:focus {
+    color: #d44337;
 }
 
 /* CAROUSEL */
@@ -79,3 +89,35 @@ header {
     height: 100%;
 }
 
+/* GALLERY */
+
+.gallery {
+    margin: 2em 0;
+}
+
+.gallery-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1em 0;
+    color: #f3bd45;
+    font-family: 'Denk One', sans-serif;
+    font-size: 3rem;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template: 300px 300px / repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 1em;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gallery-image-positioning {
+    object-position: top;
+}
