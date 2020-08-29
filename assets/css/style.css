@@ -119,20 +119,22 @@ header {
 
 /* GALLERY */
 
-.gallery {
-    margin: 2em 0;
+.gallery-section {
+    padding-bottom: 2em;
 }
 
-.gallery-title {
+/* Used for all section titles */
+
+.section-title {
     text-align: center;
     text-transform: uppercase;
-    margin: 1em 0;
     color: #f3bd45;
     font-family: 'Denk One', sans-serif;
     font-size: 3rem;
+    margin: 1em;
 }
 
-.gallery-images {
+.gallery-section-images {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 300px 300px;
@@ -140,13 +142,58 @@ header {
     grid-gap: 1em;
 }
 
-.gallery-image {
+.gallery-section-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.gallery-image-positioning {
+.gallery-section-image-positioning {
     object-position: top;
+}
+
+/* CAFE */
+
+.cafe-section {
+    background-color:#f3bd45;
+    padding: 2em;
+}
+
+.cafe-section-title {
+    color: #d44337;
+    margin-top: 0;
+}
+
+.cafe-section-feature {
+    max-width: 700px;
+    margin: 0 auto 2em auto;
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+.cafe-icon {
+    display: inline-block;
+    margin-bottom: .5em;
+}
+
+.cafe-menu-btn {
+    display: block;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, .9);
+    width: max-content;
+    padding: .8em 2.5em;
+    font-weight: bold;
+    font-family: 'Denk One', sans-serif;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    background-color: #d44337;
+    transition: all 500ms;
+}
+
+.cafe-menu-btn:hover,
+.cafe-menu-btn:focus {
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.1);
 }
