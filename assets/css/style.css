@@ -149,6 +149,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 300px 300px;
+    grid-auto-rows: 0;
     justify-items: center;
     grid-gap: 1em;
 }
@@ -168,7 +169,7 @@ header {
 
 .cafe-section {
     background-color:#f3bd45;
-    padding: 2em;
+    padding: 2em 0;
 }
 
 .cafe-section h2 {
@@ -247,6 +248,44 @@ header {
 
     .vinyl-section-body {
         width: 100%;
+        max-width: 600px;
         text-align: center;
     }
+}
+
+/* LIVE MUSIC */
+
+.live-music-section {
+    background-color: #f3bd45;
+    padding: 2em 0;
+}
+
+.live-music-section h2 {
+    margin-top: 0;
+}
+
+.live-music-section p {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.live-music-section-body {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.live-music-table {
+    margin-top: 2em;
+}
+
+.live-music-table thead,
+.live-music-table tbody {
+    text-align: center;
+    font-family: 'Denk One';
+    font-size: 1.5rem;
+}
+
+.live-music-table tbody {
+    font-size: 1.25rem;
 }
