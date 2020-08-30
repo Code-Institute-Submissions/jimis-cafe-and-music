@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.invisible-link-to /* used to avoid sticky nav covering content */ { 
+    position: relative;
+    bottom: 100px;
+}
+
 /* TYPOGRAPHY */
 
 body {
@@ -58,7 +63,7 @@ header {
 }
 
 .title-small {
-    font-size: 48px;
+    font-size: 36px;
 }
 
 /* NAVIGATION */
@@ -116,6 +121,56 @@ header {
     justify-content: center;
     text-align: left;
     height: 100%;
+    width: 45%;
+}
+
+.caption-content {
+    background-color: rgba(0, 0, 0, .3);
+    padding: 1em;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    margin-bottom: .5em;
+}
+
+.carousel-caption p {
+    margin-bottom: 1em;
+}
+
+.carousel-btn {
+    display: inline-block;
+    color: rgba(0, 0, 0, .9);
+    padding: .6em 2.2em;
+    margin-bottom: .2em;
+    font-weight: bold;
+    font-family: 'Denk One', sans-serif;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    background-color: #d44337;
+    transition: all 500ms;
+}
+
+.carousel-btn:hover,
+.carousel-btn:focus {
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:970px) {
+    .carousel-caption {
+        text-align: center;
+        margin: 0 auto;
+        width: 70%;
+        max-width: 450px;
+        line-height: 1.5;
+        font-size: 1.125rem;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
 }
 
 /* GALLERY */
