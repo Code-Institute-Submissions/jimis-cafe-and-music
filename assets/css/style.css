@@ -289,3 +289,69 @@ header {
 .live-music-table tbody {
     font-size: 1.25rem;
 }
+
+/* YOUR VISIT */
+
+.your-visit-section {
+    padding: 2em 0;
+}
+
+.your-visit-section h3 {
+    font-size: 1.5rem;
+}
+
+.your-visit-section-columns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.your-visit-section-info {
+    text-align: right;
+}
+
+.opening-times {
+    margin-bottom: 1em;
+}
+
+.contact-link {
+    display: block;
+}
+
+.contact-icon {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.your-visit-section-map {
+    width: 30%;
+    min-width: 300px;
+}
+
+@media screen and (max-width: 910px) {
+    .your-visit-section-columns {
+        flex-direction: column;
+    }
+
+    .your-visit-section-info {
+        text-align: center;
+    }
+
+    .contact-icon {
+        display: block;
+        margin: 1em 0 .5em 0;
+    }
+
+    .your-visit-section-map {
+        width: 60%;
+        max-width: 500px;
+    }
+
+    .contact-link {
+        margin-bottom: 1em;
+    }
+
+    .contact-info-heading {
+        margin-top: 1em;
+    }
+}
