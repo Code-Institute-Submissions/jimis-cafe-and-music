@@ -206,6 +206,11 @@ header {
 }
 
 @media screen and (max-width:970px) {
+
+    .carousel-image {
+        height: 500px;
+    }
+
     .carousel-caption {
         text-align: center;
         margin: 0 auto;
@@ -222,6 +227,22 @@ header {
 
 .animate__fadeIn {
     animation-delay: 500ms;
+}
+
+@media screen and (max-width: 500px) {
+
+    .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .caption-content,
+    .caption-content .btn {
+        font-size: 1rem;
+    }
+
+    .carousel-narrow-hide {
+        display: none;
+    }
 }
 
 /* GALLERY */
