@@ -146,7 +146,6 @@ header {
 }
 
 /* to space out links in dropdown */
-
 @media screen and (max-width: 991px) {
     .my-nav li {
         margin: .6em 0;
@@ -212,6 +211,10 @@ header {
     .carousel-caption h2 {
         font-size: 2rem;
     }
+}
+
+.animate__fadeIn {
+    animation-delay: 500ms;
 }
 
 /* GALLERY */
