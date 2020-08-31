@@ -176,7 +176,7 @@ header {
 /* GALLERY */
 
 .gallery-section {
-    padding-bottom: 4em;
+    padding: 2.5em 0;
 }
 
 /* Used for all section titles 
@@ -187,7 +187,7 @@ header {
     text-transform: uppercase;
     font-family: 'Denk One', sans-serif;
     font-size: 3rem;
-    margin: 1em;
+    margin: 0 0 1em 0;
 }
 
 .title-orange {
@@ -228,7 +228,7 @@ header {
 }
 
 .cafe-section h2 {
-    margin-top: .2em;
+    margin-top: 0;
 }
 
 .cafe-section-feature {
@@ -266,8 +266,12 @@ header {
 
 /* VINYL */
 
+.vinyl-section {
+    padding: 2.5em 0;
+}
+
 .vinyl-section h2 {
-    margin-bottom: 0;
+    margin-bottom: 0 0 1em 0;
 }
 
 .vinyl-section-columns {
@@ -312,11 +316,11 @@ header {
 
 .live-music-section {
     background-color: #f3bd45;
-    padding: 2em 0;
+    padding: 2.5em 0;
 }
 
 .live-music-section h2 {
-    margin-top: 0;
+    margin: 0 0 1em 0;
 }
 
 .live-music-section p {
@@ -348,7 +352,11 @@ header {
 /* YOUR VISIT */
 
 .your-visit-section {
-    padding: 2em 0;
+    padding: 2.5em 0;
+}
+
+.your-visit-section h2 {
+    margin: 0 0 1em 0;
 }
 
 .your-visit-section h3 {
