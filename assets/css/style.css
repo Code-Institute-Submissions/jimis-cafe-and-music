@@ -383,6 +383,13 @@ header {
     font-size: 1.25rem;
 }
 
+@media screen and (max-width: 500px) {
+    .live-music-table thead,
+    .live-music-table tbody {
+        font-size: 1.125rem;
+    }
+}
+
 /* YOUR VISIT */
 
 .your-visit-section h3 {
