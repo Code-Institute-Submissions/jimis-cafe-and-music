@@ -22,6 +22,10 @@ p {
     margin: 0;
 }
 
+h2 {
+    font-family: 'Denk One', sans-serif;
+}
+
 /* OVERALL LAYOUT */
 
 .container {
@@ -33,6 +37,59 @@ p {
 img {
     display: block;
 }
+
+/* global section styles 
+================================= */
+
+section {
+    padding: 2.5em 0;
+}
+
+.section-bg-orange {
+    background-color: #f3bd45;
+}
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0 0 1em 0;
+}
+
+.title-orange {
+    color: #f3bd45;
+}
+
+.title-red {
+    color: #d44337;
+}
+
+/* =============================== */
+
+/* global button styles 
+============================ */
+
+.btn {
+    display: inline-block;
+    color: rgba(0, 0, 0, .9);
+    padding: .6em 2.2em;
+    margin-bottom: .2em;
+    font-weight: bold;
+    font-family: 'Denk One', sans-serif;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    background-color: #d44337;
+    transition: all 500ms;
+}
+
+.btn:hover,
+.btn:focus {
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* ============================ */
 
 /* HEADER */
 
@@ -110,8 +167,12 @@ header {
 
 /* CAROUSEL */
 
+.carousel {
+    padding: 0;
+}
+
 .carousel-image {
-    height: 600px;
+    height: 550px;
     object-fit: cover;
 }
 
@@ -138,26 +199,6 @@ header {
     margin-bottom: 1em;
 }
 
-.carousel-btn {
-    display: inline-block;
-    color: rgba(0, 0, 0, .9);
-    padding: .6em 2.2em;
-    margin-bottom: .2em;
-    font-weight: bold;
-    font-family: 'Denk One', sans-serif;
-    font-size: 1.25rem;
-    border-radius: 5px;
-    background-color: #d44337;
-    transition: all 500ms;
-}
-
-.carousel-btn:hover,
-.carousel-btn:focus {
-    text-decoration: none;
-    color: #fff;
-    transform: scale(1.1);
-}
-
 @media screen and (max-width:970px) {
     .carousel-caption {
         text-align: center;
@@ -178,27 +219,6 @@ header {
 .gallery-section {
     padding: 2.5em 0;
 }
-
-/* Used for all section titles 
-================================= */
-
-.section-title {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Denk One', sans-serif;
-    font-size: 3rem;
-    margin: 0 0 1em 0;
-}
-
-.title-orange {
-    color: #f3bd45;
-}
-
-.title-red {
-    color: #d44337;
-}
-
-/* =============================== */
 
 .gallery-section-images {
     display: grid;
@@ -222,15 +242,6 @@ header {
 
 /* CAFE */
 
-.cafe-section {
-    background-color:#f3bd45;
-    padding: 2em 0;
-}
-
-.cafe-section h2 {
-    margin-top: 0;
-}
-
 .cafe-section-feature {
     max-width: 700px;
     margin: 0 auto 2em auto;
@@ -244,35 +255,11 @@ header {
 
 .cafe-menu-btn {
     display: block;
-    margin: 0 auto;
-    color: rgba(0, 0, 0, .9);
     width: max-content;
-    padding: .8em 2.5em;
-    margin-bottom: .2em;
-    font-weight: bold;
-    font-family: 'Denk One', sans-serif;
-    font-size: 1.25rem;
-    border-radius: 5px;
-    background-color: #d44337;
-    transition: all 500ms;
-}
-
-.cafe-menu-btn:hover,
-.cafe-menu-btn:focus {
-    text-decoration: none;
-    color: #fff;
-    transform: scale(1.1);
+    margin: 0 auto;
 }
 
 /* VINYL */
-
-.vinyl-section {
-    padding: 2.5em 0;
-}
-
-.vinyl-section h2 {
-    margin-bottom: 0 0 1em 0;
-}
 
 .vinyl-section-columns {
     display: flex;
@@ -314,15 +301,6 @@ header {
 
 /* LIVE MUSIC */
 
-.live-music-section {
-    background-color: #f3bd45;
-    padding: 2.5em 0;
-}
-
-.live-music-section h2 {
-    margin: 0 0 1em 0;
-}
-
 .live-music-section p {
     margin-bottom: 1em;
     text-align: center;
@@ -350,14 +328,6 @@ header {
 }
 
 /* YOUR VISIT */
-
-.your-visit-section {
-    padding: 2.5em 0;
-}
-
-.your-visit-section h2 {
-    margin: 0 0 1em 0;
-}
 
 .your-visit-section h3 {
     font-size: 1.5rem;
@@ -444,7 +414,6 @@ footer p,
 }
 
 footer h2 {
-    font-family: 'Denk One', sans-serif;
     text-transform: uppercase;
     font-size: 2.25rem;
 }
