@@ -9,6 +9,10 @@
     bottom: 100px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* TYPOGRAPHY */
 
 body {
