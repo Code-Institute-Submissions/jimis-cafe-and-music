@@ -335,7 +335,7 @@ header {
 
 .vinyl-covers-image {
     width: 40%;
-    min-width: 350px;
+    max-width: 450px;
 }
 
 @media screen and (max-width: 900px) {
@@ -344,8 +344,8 @@ header {
     }
 
     .vinyl-covers-image {
-        width: 60%;
-        min-width: 200px;
+        width: 80%;
+        max-width: 350px;
     }
 
     .vinyl-section-body {
@@ -433,7 +433,7 @@ header {
 
     .your-visit-section-map {
         width: 60%;
-        max-width: 500px;
+        max-width: 400px;
     }
 
     .contact-link {
