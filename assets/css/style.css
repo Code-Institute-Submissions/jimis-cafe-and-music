@@ -237,7 +237,7 @@ header {
 
     .caption-content,
     .caption-content .btn {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .carousel-narrow-hide {
@@ -270,6 +270,13 @@ header {
 
 .gallery-section-image-positioning {
     object-position: top;
+}
+
+@media screen and (max-width: 370px) {
+    .gallery-section-images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: 200px 200px;
 }
 
 /* CAFE */
@@ -321,7 +328,7 @@ header {
 
     .vinyl-covers-image {
         width: 60%;
-        min-width: 350px;
+        min-width: 200px;
     }
 
     .vinyl-section-body {
