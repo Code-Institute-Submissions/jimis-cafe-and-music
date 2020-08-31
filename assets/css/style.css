@@ -421,7 +421,7 @@ header {
 
 .your-visit-section-map {
     width: 30%;
-    min-width: 300px;
+    max-width: 500px;
 }
 
 @media screen and (max-width: 910px) {
