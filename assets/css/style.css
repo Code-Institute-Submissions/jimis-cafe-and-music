@@ -68,6 +68,16 @@ section {
     color: #d44337;
 }
 
+@media screen and (max-width:650px) {
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    section {
+        font-size: 1rem;
+    }
+}
+
 /* =============================== */
 
 /* global button styles 
@@ -93,6 +103,12 @@ section {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+@media screen and (max-width:650px) {
+    .btn {
+        font-size: 1.25rem;
+    }
 }
 
 /* ============================ */
@@ -277,6 +293,7 @@ header {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-template-rows: 200px 200px;
+    }
 }
 
 /* CAFE */
@@ -425,6 +442,12 @@ header {
 
     .contact-info-heading {
         margin-top: 1em;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .your-visit-section h3 {
+        font-size: 1.25rem;
     }
 }
 
