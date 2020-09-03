@@ -491,6 +491,7 @@ footer p,
 .footer-social-links {
     width: 55%;
     text-align: right;
+    min-width: 150px;
 }
 
 footer h2 {
@@ -509,6 +510,10 @@ footer p {
     transition: all 500ms;
 }
 
+.footer-social-icon:first-child {
+    margin-left: 0;
+}
+
 .footer-social-icon:hover,
 .footer-social-icon:focus {
     color: #d44337;
@@ -521,5 +526,20 @@ footer p {
 
     .footer-social-links {
         text-align: center;
+    }
+
+    footer h2,
+    footer p {
+        align-self: center;
+        text-align: center;
+        margin-top: .8em;
+    }
+
+    footer h2 {
+        font-size: 1.75rem;
+    }
+
+    footer p {
+        font-size: .8rem;
     }
 }
