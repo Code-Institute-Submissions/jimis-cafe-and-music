@@ -270,8 +270,7 @@ header {
 .gallery-section-images {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: 300px 300px;
-    grid-auto-rows: 0;
+    grid-auto-rows: 300px;
     justify-items: center;
     grid-gap: 1em;
 }
@@ -292,7 +291,7 @@ header {
     .gallery-section-images {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-template-rows: 200px 200px;
+        grid-auto-rows: 200px;
     }
 }
 
