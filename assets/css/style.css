@@ -211,6 +211,7 @@ header {
 .caption-content {
     background-color: rgba(0, 0, 0, .3);
     padding: 1em;
+    max-width: 800px;
 }
 
 .carousel-caption h2 {
@@ -220,6 +221,26 @@ header {
 
 .carousel-caption p {
     margin-bottom: 1em;
+}
+
+/* to keep carousel caption box more central on larger screens */
+
+@media screen and (min-width: 1600px) {
+    .caption-large {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .caption-large {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    .caption-large {
+        margin-left: 8%;
+    }
 }
 
 @media screen and (max-width:970px) {
