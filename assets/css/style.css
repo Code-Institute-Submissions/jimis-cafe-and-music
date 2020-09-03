@@ -80,6 +80,7 @@ section {
 
 /* =============================== */
 
+
 /* global button styles 
 ============================ */
 
@@ -112,6 +113,7 @@ section {
 }
 
 /* ============================ */
+
 
 /* HEADER */
 
@@ -223,7 +225,8 @@ header {
     margin-bottom: 1em;
 }
 
-/* to keep carousel caption box more central on larger screens */
+/* to keep carousel caption box more central on larger screens 
+================================================== */
 
 @media screen and (min-width: 1600px) {
     .caption-large {
@@ -242,6 +245,9 @@ header {
         margin-left: 8%;
     }
 }
+
+/* ========================================== */
+
 
 @media screen and (max-width:970px) {
 
