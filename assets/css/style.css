@@ -255,9 +255,21 @@ header {
     .caption-content .btn {
         font-size: .9rem;
     }
+}
 
-    .carousel-narrow-hide {
-        display: none;
+@media screen and (max-width: 300px) {
+
+    .carousel-caption h2 {
+        font-size: 1.25rem;
+    }
+
+    .caption-content,
+    .caption-content .btn {
+        font-size: .8rem;
+    }
+
+    .carousel-image {
+        height: 450px;
     }
 }
 
