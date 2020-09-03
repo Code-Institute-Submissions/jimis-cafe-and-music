@@ -170,7 +170,7 @@ header {
 /* to space out links in dropdown */
 @media screen and (max-width: 991px) {
     .my-nav li {
-        margin: .6em 0;
+        margin: .3em 0;
     }
 }
 
