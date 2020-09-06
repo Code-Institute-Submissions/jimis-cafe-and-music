@@ -38,7 +38,7 @@
 |**Youtube link icon** in the footer (web) |Takes user to the Youtube homepage in a new tab | Yes | N/A |
 |**Youtube link icon** in the footer (mobile) |Takes user to the Youtube app, or Youtube homepage | Yes | N/A |
 
-### Hover/Focus effects
+<h3>Hover/Focus effects</h3>
 
 | Component | Intended Function | Works as Intended? | Fix |
 | -------------- | ------------------- | ---------------- | --- |
@@ -53,8 +53,10 @@
 |Social icons in the footer |Transitions to red when the user hovers cursor | Yes | N/A |
 |Social icons in the footer |Transitions to red when user presses TAB to focus them | Yes | N/A |
 
-### Animations
+<h3>Animations</h3>
 
+| Component | Intended Result | Works as intended? | Fix |
+| -------------- | ------------------- | ---------------- | --- |
 |Carousel captions |The text, button and background fade in straight after the carousel slide moves in | Yes | N/A |
 
 ## Usability
@@ -79,7 +81,7 @@ The simple colour scheme of the site and the use of empty space allows for the c
 
 ### User goal #2
 
-> User has already decided they want to visit, but needs to find out further information, such as opening times, location, menu options and live music.
+> As a user, I want to be able to easily find information I require for my visit, such as opening times, contact details, live music information and cafe menu items.
 
 The main navigation of the site is always available to the user, either through the "burger" navbar button or stuck to the top of the viewport on large screens. Therefore, the user can always navigate to the information they require. The navigation links take the user to the section of interest clearly described in the link itself and users are therefore not met with information they did not need. The section headings in the site make it clear to the user where they currently are in the site and the ordering of the links in the navbar reflect the order of sections on the page.
 
@@ -96,8 +98,6 @@ To test the responsiveness of the site, I used the Google Chrome Developer Tools
 | Layout | Information should maintain logical hierarchy and elements should not become overcrouded or ovelap | Yes | N/A |
 | Functionality | Buttons, links and clickable icons should remain clickable | Yes | N/A |
 
-## Cloud version testing
+<h2>Cloud version testing</h2>
 
-After carrying out the same testing outlined above on the cloud-hosted version of the site (Github pages), the site works as expected without any problems. 
-
-
+After carrying out the same testing outlined above on the cloud-hosted version of the site (Github pages), the site works as expected without any problems.
