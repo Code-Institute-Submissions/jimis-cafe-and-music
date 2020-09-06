@@ -15,24 +15,24 @@ Welcome to my MS1 project for Code Institute. Visit the live website [here](http
 
 ## Project Overview
 
-Jimi's is a website for a ficitious blues-themed cafe, record shop and live music venue. The website would be used to provide new/returning customers with essential information about the venue, such as contact information, opening times, etc., and pursuade potential customers to visit.
+Jimi's is a website for a fictitious blues-themed cafe, record shop and live music venue. The website would be used to provide new/returning customers with essential information about the venue, such as contact information, opening times, etc., and pursuade potential customers to visit.
 
 ## UX
 
 ### Strategy
 
-**Business Objectives**
+#### Business Objectives
 - To increase sales and footfall at the venue.
 - To persuade potential visitors to visit and spend money.
 - To provide decided visitors with the key information requred for their visit.
 
-**User Stories**
+#### User Stories
 - As a user, I want the website to give me a feel for the venue and convince me to visit by eliciting an emotional response through powerful and compelling content.
 - As a user, I want to be able to easily find information I require for my visit, such as opening times, contact details, live music information and cafe menu items.
 
 ### Scope / Features
 
-**Current Features**
+#### Current Features
 - Core Jimi's branding (logo and tagline)
 - Expanded/collapsed navigation visible at all times
 - Emotionally compelling text and photo content to reinforce brand
@@ -41,44 +41,112 @@ Jimi's is a website for a ficitious blues-themed cafe, record shop and live musi
 - Social links for users to recieve updates on other platforms
 - Linear information structure
 	
-**Future Features**
+#### Future Features
 - The current sections expanded in more detail to seperate pages, taking the user away from the linear structure
 - A dedicated 'Gallery' page to include up-to-date photos/videos of live performances at the venue
 - A curated blog section to document the collection of vinyl records that the store is famous for
 - A 'scrollspy' feature which highlights the current section being viewed in the navbar to reinforce the user's location on the page
 - Smooth scrolling to work in all broswers
 
-**Ongoing Features**
+#### Ongoing Features
 - Changes to the live music listings and the cafe menu to be kept up-to-date
 
 ## Structure
 
-The site structures information in a linear fashion, with all information available on a single scrolling page. This is suitable for a 'minimum viable product' website that serves the user's most basic needs with room to scale up in future implementations. Key pieces of information such as opening times, contact details, etc., are placed at the bottom of the page in a dedicated contact section (called "your visit" on the Jimi's website) to conform to user expectations and standard practices.
+The site presents information in a linear fashion, with all information available on a single scrolling page. This is suitable for a 'minimum viable product' website that serves the user's most basic needs with room to scale up in future implementations. Key pieces of information such as opening times, contact details, etc., are placed at the bottom of the page in a dedicated contact section (called "your visit" on the Jimi's website) to conform to user expectations and standard practices.
 
 ## Skeleton
 
-I used [Balsamiq](https://balsamiq.com) to create 3 wireframes for the site to show the general layout of content at small, medium and large screens.
+I used [Balsamiq](https://balsamiq.com) to create 3 wireframes for the site to plan the general layout of content at small, medium and large screens.
 
-- [small screens]()
-- [medium screens]()
-- [large screens]()
+- [Small screens](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/index-wireframe-small.png)
+- [Medium screens](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/index-wireframe-medium.png)
+- [Large screens](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/index-wireframe-large.png)
 
-The site's layout aims to create the "progressive disclosure" effect with its content. The carousel gives a taste of each individual section and allows the user to jump to the section they are interested in. Alternatively, the user can scroll down to see the real-life photographs of the fictitious venue which aim to draw the user's attention in a "show don't tell" fashion. The text-based sections of the site appear in the order that they are referenced in the site logo and navbar. The navigation remains at the top of the page and is accessible to the user at all times in order to allow for fast retrieval of information. 
+The site's layout aims to create the "progressive disclosure" effect with its content. The carousel gives a taste of each individual section and allows the user to jump to the section they are interested in. Alternatively, the user can scroll down to see photographs of the fictitious venue in action which aim to draw the user's attention in a "show don't tell" fashion. The text-based sections of the site appear in the order that they are referenced in the site logo and navbar. The navigation remains at the top of the page and is accessible to the user at all times in order to allow for fast retrieval of information. 
 
-## Surface:
+## Surface
 
-**Colours**
+### Colour
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+- ![#f03c15](https://via.placeholder.com/15/d44337/000000?text=+) `#d44337`
+- ![#c5f015](https://via.placeholder.com/15/f3bd45/000000?text=+) `#f3bd45`
+- ![#1589F0](https://via.placeholder.com/15/914d00/000000?text=+) `#914d00`
 
-The site uses a simple, bold combination of colours which follows the fictitious company's branding and allows for the content to be the main focus. Whitespace is used heavily to add emphasis to the areas which do use colour. The footer utilises a combination of greys which sets its content apart from the site's main content.
+The site uses a simple, anologic combination of colours which follows the fictitious company's branding and allows for the content to be the main focus. Whitespace is used heavily to add emphasis to the areas which do use colour, and place further importance on the content of the site. The footer utilises a combination of greys which sets its content apart from the site's main content.
 
-**Typography**
+### Typography
 
-[Denk One](https://fonts.google.com/specimen/Denk+One) - used for 'h1', 'h2', 'nav li' and '.btn' elements.
+[Denk One](https://fonts.google.com/specimen/Denk+One) - used for `h1`, `h2`, `nav li` and `.btn` elements.
 
 I decided to use 'Denk One' for the main logo text, section headings and navigation links of the site. When experimenting with fonts, I was looking for something that was bold and consistent in uppercase but also had plenty of character and I liked 'Denk One' as soon as I tried it out.
+
+[Open Sans](https://fonts.google.com/specimen/Open+Sans) - used for `.site-title-tagline` element.
+
+The tagline below the title on large screen which reads "Cafe • Vinyl • Live Music" uses 'Open Sans', a clean sans-serif font that adds a modern influence to the venue logo. 
+
+[Merriweather](https://fonts.google.com/specimen/Merriweather) - used for `h3` and `p` elements.
+
+For the main body of the site and `h3` elements of the site I used 'Merriweather', a highly readable serif font that I believe provides a nice contrast to the more decorative 'Denk One' headings.
+
+## Technologies and Libraries
+
+- HTML
+- CSS
+- [Bootstrap](https://getbootstrap.com) - For the collapsing navigation and carousel.
+- [Animate.css](https://animate.style) - For the fading in of content on the carousel.
+- [Fontawesome](https://fontawesome.com) - For the icons in the Cafe section and social media icons in the footer.
+- Git - For version control. I commited regulary after the addition of each new feature. 
+- [Github](https://github.com) - Used to host my code during development to share with my tutor and deploy my project through [Github Pages](https://pages.github.com). 
+
+## Resources and Tools
+
+- [shutterstock.com](https://www.shutterstock.com/home) - Used to source the stock photos for the carousel and Gallery section in addition to the SVG Cafe menu template.
+- [dreamstime.com](https://www.dreamstime.com) - Used to source the graffiti photograph of Jimi Hendrix for use with the carousel.
+- [placeit.net](https://placeit.net) - Used to create the street sign mockup of Jimi's which is shown in the Gallery section of the site.
+- [ami.responsivdesign.is](http://ami.responsivedesign.is) - Used to create the mockup of my site on various devices for the beginning of this README file.
+- [W3C HTML Validation Service](https://validator.w3.org) - Used to validate my HTML code in the testing process.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate my CSS code in the testing process.
+- [GIMP](https://www.gimp.org) - Used to edit and reduce the filesizes of the site's images.
+- [Inkscape](https://inkscape.org) - Used to create the site's main logo and tagline PNG (which was swapped for HTML/CSS during the development process, but can be seen at the top of this readme) and for editing the stock SVG Cafe menu template.
+- [Balsamiq](https://balsamiq.com) - Used to create the wireframes during the Skeleton phase of UX design.
+- [VS Code](https://code.visualstudio.com) - My IDE of choice, used with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for instant feedback during development.
+- [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - For testing the responsiveness of my site and used to find the breakpoints for my media queries.
+- [Writed](http://writed.io) - For keeping notes and drafting text-based content throughout the development of my project. 
+
+## Testing
+
+I developed the site using [VS Code](https://code.visualstudio.com) with the Live Server plugin, which allowed for instant feedback and testing to inform my development process. 
+
+### Validation
+
+When I first validated my HTML code with the [HTML Validation Service](https://validator.w3.org), there was an unclosed tag in my bootstrap carousel and therefore an error was flagged by the validator. After quickly fixing this, the HTML passed the validator with no issues.
+
+My CSS passed the [CSS Validation Service](https://jigsaw.w3.org/css-validator/) without any issues.
+
+### Manual testing
+
+I carried out testing on the finished development version of my site through Google chrome and VS Code live server. I then repeated in multiple browsers before testing the cloud version hosted on Github pages. Click [here](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/testing.md) for a report of the manual testing process which tested functionality, usability (aligned with user stories) and responsiveness.
+
+## Deployment
+
+I deployed my site through GitHub pages. The steps I took were as follows:
+
+1. Created a local repository on my machine which included the site files, assets and an empty README.md file.
+2. Used `git init` in the terminal to initialise git in the repository.
+3. Staged and commited all the files in the local repository with the message `"Initial commit"`.
+4. Created a repository on Github with a name and description, leaving the "Initialise with README" checkbox unselected.
+5. Copied the code on the next page and pasted it into the terminal, pushing the local repository to Github.
+6. In the settings tab on the Github repository, I scrolled down to GitHub Pages, clicked on the master branch and recieved a [live URL](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/logo-main.png) for the site.
+
+## Credits
+
+- [CSS Tricks](https://css-tricks.com) for help with the CSS `auto-fit` property for my Gallery grid and the CSS `object-position` property for one of the images in my Gallery. 
+- [Kevin Powell](https://www.kevinpowell.co) for his CSS layout tips.
+- [Code Institute](https://codeinstitute.net) for the Love Running project which opened my eyes to great visual design.
+- My tutor Adegbenga Adeye for his help and guidance throughout the project.
+
+
+
 
 
