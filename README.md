@@ -20,6 +20,7 @@ Jimi's is a website for a ficitious blues-themed cafe, record shop and live musi
 ## UX
 
 ### Strategy
+
 **Business Objectives**
 - To increase sales and footfall at the venue.
 - To persuade potential visitors to visit and spend money.
@@ -41,7 +42,7 @@ Jimi's is a website for a ficitious blues-themed cafe, record shop and live musi
 - Linear information structure
 	
 **Future Features**
-- The current features explained in more depth on seperate pages, taking the user away from the linear structure
+- The current sections expanded in more detail to seperate pages, taking the user away from the linear structure
 - A dedicated 'Gallery' page to include up-to-date photos/videos of live performances at the venue
 - A curated blog section to document the collection of vinyl records that the store is famous for
 - A 'scrollspy' feature which highlights the current section being viewed in the navbar to reinforce the user's location on the page
@@ -49,3 +50,35 @@ Jimi's is a website for a ficitious blues-themed cafe, record shop and live musi
 
 **Ongoing Features**
 - Changes to the live music listings and the cafe menu to be kept up-to-date
+
+## Structure
+
+The site structures information in a linear fashion, with all information available on a single scrolling page. This is suitable for a 'minimum viable product' website that serves the user's most basic needs with room to scale up in future implementations. Key pieces of information such as opening times, contact details, etc., are placed at the bottom of the page in a dedicated contact section (called "your visit" on the Jimi's website) to conform to user expectations and standard practices.
+
+## Skeleton
+
+I used [Balsamiq](https://balsamiq.com) to create 3 wireframes for the site to show the general layout of content at small, medium and large screens.
+
+- [small screens]()
+- [medium screens]()
+- [large screens]()
+
+The site's layout aims to create the "progressive disclosure" effect with its content. The carousel gives a taste of each individual section and allows the user to jump to the section they are interested in. Alternatively, the user can scroll down to see the real-life photographs of the fictitious venue which aim to draw the user's attention in a "show don't tell" fashion. The text-based sections of the site appear in the order that they are referenced in the site logo and navbar. The navigation remains at the top of the page and is accessible to the user at all times in order to allow for fast retrieval of information. 
+
+## Surface:
+
+**Colours**
+
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+
+The site uses a simple, bold combination of colours which follows the fictitious company's branding and allows for the content to be the main focus. Whitespace is used heavily to add emphasis to the areas which do use colour. The footer utilises a combination of greys which sets its content apart from the site's main content.
+
+**Typography**
+
+[Denk One](https://fonts.google.com/specimen/Denk+One) - used for 'h1', 'h2', 'nav li' and '.btn' elements.
+
+I decided to use 'Denk One' for the main logo text, section headings and navigation links of the site. When experimenting with fonts, I was looking for something that was bold and consistent in uppercase but also had plenty of character and I liked 'Denk One' as soon as I tried it out.
+
+
