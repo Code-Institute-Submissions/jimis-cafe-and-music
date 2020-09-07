@@ -1,9 +1,4 @@
-# Jimi's: Cafe, Vinyl and Live Music
-## Code Institute Milestone Project 1: User-Centric Frontend Development
-
-!["Jimi's: cafe, vinyl and live music"](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/logo-main.png)
-
-Welcome to my MS1 project for Code Institute. Visit the live website [here](https://tobyjbrown.github.io/jimis-cafe-and-music).
+# [Jimi's: Cafe, Vinyl and Live Music](https://tobyjbrown.github.io/jimis-cafe-and-music/)
 
 !["The project website tested on various devices"](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/jimis-devices-mockup.png)
 
@@ -114,13 +109,20 @@ For the main body and `h3` elements of the site I used 'Merriweather', a highly 
 
 ## Technologies and Libraries
 
-- HTML
-- CSS
-- [Bootstrap](https://getbootstrap.com) - For the collapsing navigation and carousel.
-- [Animate.css](https://animate.style) - For the fading in of content on the carousel.
-- [Fontawesome](https://fontawesome.com) - For the icons in the Cafe section and social media icons in the footer.
-- Git - For version control. I commited regulary after the addition of each new feature. 
-- [Github](https://github.com) - Used to host my code during development to share with my tutor and deploy my project through [Github Pages](https://pages.github.com). 
+1. !["HTML5 Badge"](https://img.shields.io/badge/HTML-5-E34F26?logo=html5)
+- [HTML5](https://www.w3.org/TR/html52/introduction.html#introduction) - A markup language used to structure and present the content on the site.
+2. !["CSS Badge"](https://img.shields.io/badge/CSS-3-1572B6?logo=css3)
+- [CSS](https://www.w3.org/standards/webdesign/htmlcss) - Used to create stylesheets that describe the presentation of the content on the site.
+3. !["Bootstrap Badge"](https://img.shields.io/badge/Bootstrap-4-563D7C?logo=bootstrap)
+- [Bootstrap](https://getbootstrap.com) - A CSS framework, used for the collapsing navigation and carousel.
+4. !["Animate.css Badge](https://img.shields.io/badge/Animate.css-orange)
+- [Animate.css](https://animate.style) - A CSS library, used for the fading in of content on the carousel.
+5. !["Fontawesome Badge"](https://img.shields.io/badge/Font_Awesome-5.14-339AF0?logo=font-awesome)
+- [Font Awesome](https://fontawesome.com) - A CSS library, used for the icons in the Cafe section and social media icons in the footer.
+6. !["Git Badge"](https://img.shields.io/badge/Git-000?logo=git)
+- [Git](https://git-scm.com) - A version control system used to keep track of changes made to the source code.
+7. !["Github Badge"](https://img.shields.io/badge/Github-000?logo=github)
+- [Github](https://github.com) - A remote code hosting platform, used during development to share with my tutor and deploy my project through [Github Pages](https://pages.github.com).
 
 ## Resources and Tools
 
@@ -166,8 +168,7 @@ I deployed my site through GitHub pages. The steps I took were as follows:
 
 - [CSS Tricks](https://css-tricks.com) for help with the CSS `auto-fit` property for my Gallery grid and the CSS `object-position` property for one of the images in my Gallery. 
 - [Kevin Powell](https://www.kevinpowell.co) for his amazing CSS layout tips.
-- [Code Institute](https://codeinstitute.net) for the Love Running project which opened my eyes to great visual design.
 - [Should I Prefix](http://shouldiprefix.com) for helping me find which CSS properties required browser prefixes.
 - [A11Y Project](https://www.a11yproject.com) for providing guidelines for accessibiliy.
-- [Fontawesom](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) for providing screen reader guidelines for user with their icons.
+- [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) for providing screen reader guidelines for use with their icons.
 - My tutor Adegbenga Adeye for his great help and guidance throughout the project.
