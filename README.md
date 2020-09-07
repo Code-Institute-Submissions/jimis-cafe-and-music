@@ -109,7 +109,8 @@ For the main body and `h3` elements of the site I used 'Merriweather', a highly 
 
 ## Technologies and Libraries
 
-1. [!["HTML5 Badge"](https://img.shields.io/badge/HTML-5-E34F26?logo=html5)](https://www.w3.org/TR/html52/introduction.html#introduction) [HTML5](https://www.w3.org/TR/html52/introduction.html#introduction) - A markup language used to structure and present the content on the site.
+1. [!["HTML5 Badge"](https://img.shields.io/badge/HTML-5-E34F26?logo=html5)]
+- [HTML5](https://www.w3.org/TR/html52/introduction.html#introduction) - A markup language used to structure and present the content on the site.
 2. !["CSS Badge"](https://img.shields.io/badge/CSS-3-1572B6?logo=css3)
 - [CSS](https://www.w3.org/standards/webdesign/htmlcss) - Used to create stylesheets that describe the presentation of the content on the site.
 3. !["Bootstrap Badge"](https://img.shields.io/badge/Bootstrap-4-563D7C?logo=bootstrap)
@@ -162,6 +163,14 @@ I deployed my site through GitHub pages. The steps I took were as follows:
 4. Created a repository on Github with a name and description, leaving the "Initialise with README" checkbox unselected.
 5. Copied the code on the next page and pasted it into the terminal, pushing the local repository to Github.
 6. In the settings tab on the Github repository, I scrolled down to GitHub Pages, clicked on the master branch and recieved a [live URL](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/logo-main.png) for the site.
+7. To run this project on your local machine, follow these steps:
+    1. Go to the repository: https://github.com/tobyjbrown/jimis-cafe-and-music
+    2. Click on the green button that says "Clone or download".
+    3. On the dropdown menu, click the icon to the right of the URL to copy it.
+    4. Open the terminal or command line on your system.
+    5. Set your current working directory to the location you wish to store the repository in.
+    6. Type `git clone`, and then paste the URL you copied in Step 3.
+    7. Press **Enter**. Your local clone of the repository will be created.
 
 ## Credits
 
