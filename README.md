@@ -12,17 +12,26 @@ Welcome to my MS1 project for Code Institute. Visit the live website [here](http
 ## Table of Contents
 
 - [Project Overview](#Project-Overview)
-- UX
-    * Strategy
-    * Scope / Features
-    * Structure
-    * Skeleton
-    * Surface
-- Technologies and Libraries
-- Resources and Tools
-- Testing
-- Deployment
-- Credits
+- [UX](#UX)
+    * [Strategy](#Strategy)
+        * [Business Objectives](#Business-Objectives)
+        * [User Stories](#User-Stories)
+    * [Scope/Features](#Scope/Features)
+        * [Current Features](#Current-Features)
+        * [Future Features](#Future-Features)
+        * [Ongoing Features](#Ongoing-Features)
+    * [Structure](#Structure)
+    * [Skeleton](#Skeleton)
+    * [Surface](#Surface)
+        * [Colour](#Colour)
+        * [Typography](#Typography)
+- [Technologies and Libraries](#Technologies-and-Libraries)
+- [Resources and Tools](#Resources-and-Tools)
+- [Testing](#Testing)
+    * [Validation](#Validation)
+    * [Manual Testing](#Manual-Testing)
+- [Deployment](#Deployment)
+- [Credits](#Credits)
 
 ---
 
@@ -41,9 +50,10 @@ Jimi's is a website for a fictitious blues-themed cafe, record shop and live mus
 
 #### User Stories
 > As a user, I want the website to give me a feel for the venue and convince me to visit by eliciting an emotional response through powerful and compelling content.
+
 > As a user, I want to be able to easily find information I require for my visit, such as opening times, contact details, live music information and cafe menu items.
 
-### Scope / Features
+### Scope/Features
 
 #### Current Features
 - Core Jimi's branding (logo and tagline)
