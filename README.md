@@ -11,11 +11,24 @@ Welcome to my MS1 project for Code Institute. Visit the live website [here](http
 
 ## Table of Contents
 
+- [Project Overview](#Project-Overview)
+- UX
+    * Strategy
+    * Scope / Features
+    * Structure
+    * Skeleton
+    * Surface
+- Technologies and Libraries
+- Resources and Tools
+- Testing
+- Deployment
+- Credits
+
 ---
 
 ## Project Overview
 
-Jimi's is a website for a fictitious blues-themed cafe, record shop and live music venue. The website would be used to provide new/returning customers with essential information about the venue, such as contact information, opening times, etc., and pursuade potential customers to visit.
+Jimi's is a website for a fictitious blues-themed cafe, record shop and live music venue. The website would be used to provide new/returning customers with essential information about the venue, such as contact information, opening times, etc., and to pursuade potential customers to visit.
 
 ## UX
 
@@ -27,8 +40,8 @@ Jimi's is a website for a fictitious blues-themed cafe, record shop and live mus
 - To provide decided visitors with the key information requred for their visit.
 
 #### User Stories
-- As a user, I want the website to give me a feel for the venue and convince me to visit by eliciting an emotional response through powerful and compelling content.
-- As a user, I want to be able to easily find information I require for my visit, such as opening times, contact details, live music information and cafe menu items.
+> As a user, I want the website to give me a feel for the venue and convince me to visit by eliciting an emotional response through powerful and compelling content.
+> As a user, I want to be able to easily find information I require for my visit, such as opening times, contact details, live music information and cafe menu items.
 
 ### Scope / Features
 
@@ -51,43 +64,43 @@ Jimi's is a website for a fictitious blues-themed cafe, record shop and live mus
 #### Ongoing Features
 - Changes to the live music listings and the cafe menu to be kept up-to-date
 
-## Structure
+### Structure
 
 The site presents information in a linear fashion, with all information available on a single scrolling page. This is suitable for a 'minimum viable product' website that serves the user's most basic needs with room to scale up in future implementations. Key pieces of information such as opening times, contact details, etc., are placed at the bottom of the page in a dedicated contact section (called "your visit" on the Jimi's website) to conform to user expectations and standard practices.
 
-## Skeleton
+### Skeleton
 
-I used [Balsamiq](https://balsamiq.com) to create 3 wireframes for the site to plan the general layout of content at small, medium and large screens.
+I used [Balsamiq](https://balsamiq.com) to create 3 wireframes for the site, planning the general layout of content at small, medium and large screens.
 
 - [Small screens](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/index-wireframe-small.png)
 - [Medium screens](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/index-wireframe-medium.png)
 - [Large screens](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/index-wireframe-large.png)
 
-The site's layout aims to create the "progressive disclosure" effect with its content. The carousel gives a taste of each individual section and allows the user to jump to the section they are interested in. Alternatively, the user can scroll down to see photographs of the fictitious venue in action which aim to draw the user's attention in a "show don't tell" fashion. The text-based sections of the site appear in the order that they are referenced in the site logo and navbar. The navigation remains at the top of the page and is accessible to the user at all times in order to allow for fast retrieval of information. 
+The site's layout aims to create the 'progressive disclosure' effect with its content. The carousel gives a taste of each individual section and allows the user to jump to the section they are interested in via the button on the slide. Alternatively, the user can scroll down to see photographs of the fictitious venue in action which aim to draw the user's attention in a 'show, don't tell' fashion. The text-based sections of the site appear in the order that they are referenced in the site logo and navbar. The navigation remains at the top of the page and is accessible to the user at all times in order to allow for fast retrieval of information. 
 
-## Surface
+### Surface
 
-### Colour
+#### Colour
 
 - ![#f03c15](https://via.placeholder.com/15/d44337/000000?text=+) `#d44337`
 - ![#c5f015](https://via.placeholder.com/15/f3bd45/000000?text=+) `#f3bd45`
 - ![#1589F0](https://via.placeholder.com/15/914d00/000000?text=+) `#914d00`
 
-The site uses a simple, anologic combination of colours which follows the fictitious company's branding and allows for the content to be the main focus. Whitespace is used heavily to add emphasis to the areas which do use colour, and place further importance on the content of the site. The footer utilises a combination of greys which sets its content apart from the site's main content.
+The site uses a simple, analogous combination of colours which follows the fictitious company's branding and allows for the content to be the main focus. Whitespace is used heavily to add emphasis to the areas which do use colour, and place further importance on the content of the site. The footer utilises a combination of greys which sets its content apart from the site's main content.
 
 ### Typography
 
 [Denk One](https://fonts.google.com/specimen/Denk+One) - used for `h1`, `h2`, `nav li` and `.btn` elements.
 
-I decided to use 'Denk One' for the main logo text, section headings and navigation links of the site. When experimenting with fonts, I was looking for something that was bold and consistent in uppercase but also had plenty of character and I liked 'Denk One' as soon as I tried it out.
+I decided to use 'Denk One' for the main logo text, section headings, navigation links and buttons of the site. When experimenting with fonts, I was looking for something that was bold and consistent in uppercase but also had plenty of character and I liked 'Denk One' as soon as I tried it out.
 
 [Open Sans](https://fonts.google.com/specimen/Open+Sans) - used for `.site-title-tagline` element.
 
-The tagline below the title on large screen which reads "Cafe • Vinyl • Live Music" uses 'Open Sans', a clean sans-serif font that adds a modern influence to the venue logo. 
+The tagline below the title on large screens which reads "Cafe • Vinyl • Live Music" uses 'Open Sans', a clean sans-serif font that adds a modern influence to the venue logo. 
 
 [Merriweather](https://fonts.google.com/specimen/Merriweather) - used for `h3` and `p` elements.
 
-For the main body of the site and `h3` elements of the site I used 'Merriweather', a highly readable serif font that I believe provides a nice contrast to the more decorative 'Denk One' headings.
+For the main body and `h3` elements of the site I used 'Merriweather', a highly readable serif font that I believe provides a nice contrast to the more decorative 'Denk One' headings.
 
 ## Technologies and Libraries
 
@@ -102,9 +115,9 @@ For the main body of the site and `h3` elements of the site I used 'Merriweather
 ## Resources and Tools
 
 - [shutterstock.com](https://www.shutterstock.com/home) - Used to source the stock photos for the carousel and Gallery section in addition to the SVG Cafe menu template.
-- [dreamstime.com](https://www.dreamstime.com) - Used to source the graffiti photograph of Jimi Hendrix for use with the carousel.
+- [dreamstime.com](https://www.dreamstime.com) - Used to source the graffiti photograph of Jimi Hendrix to be used in the carousel.
 - [placeit.net](https://placeit.net) - Used to create the street sign mockup of Jimi's which is shown in the Gallery section of the site.
-- [ami.responsivdesign.is](http://ami.responsivedesign.is) - Used to create the mockup of my site on various devices for the beginning of this README file.
+- [ami.responsivdesign.is](http://ami.responsivedesign.is) - Used to create the mockup of my site on various devices for the beginning of this README.md file.
 - [W3C HTML Validation Service](https://validator.w3.org) - Used to validate my HTML code in the testing process.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate my CSS code in the testing process.
 - [GIMP](https://www.gimp.org) - Used to edit and reduce the filesizes of the site's images.
@@ -116,7 +129,7 @@ For the main body of the site and `h3` elements of the site I used 'Merriweather
 
 ## Testing
 
-I developed the site using [VS Code](https://code.visualstudio.com) with the Live Server plugin, which allowed for instant feedback and testing to inform my development process. 
+I developed the site using [VS Code](https://code.visualstudio.com) with the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) plugin, which allowed for instant feedback and testing to inform my development process. 
 
 ### Validation
 
@@ -126,7 +139,7 @@ My CSS passed the [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ### Manual testing
 
-I carried out testing on the finished development version of my site through Google chrome and VS Code live server. I then repeated in multiple browsers before testing the cloud version hosted on Github pages. Click [here](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/testing.md) for a report of the manual testing process which tested functionality, usability (aligned with user stories) and responsiveness.
+I carried out testing on the finished development version of my site through Google chrome and VS Code Live Server. I then repeated in multiple browsers before testing the cloud version hosted on Github pages. Click [here](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/testing.md) for a report of the manual testing process which tested functionality, usability (aligned with user stories) and responsiveness.
 
 ## Deployment
 
@@ -142,11 +155,9 @@ I deployed my site through GitHub pages. The steps I took were as follows:
 ## Credits
 
 - [CSS Tricks](https://css-tricks.com) for help with the CSS `auto-fit` property for my Gallery grid and the CSS `object-position` property for one of the images in my Gallery. 
-- [Kevin Powell](https://www.kevinpowell.co) for his CSS layout tips.
+- [Kevin Powell](https://www.kevinpowell.co) for his amazing CSS layout tips.
 - [Code Institute](https://codeinstitute.net) for the Love Running project which opened my eyes to great visual design.
-- My tutor Adegbenga Adeye for his help and guidance throughout the project.
-
-
-
-
-
+- [Should I Prefix](http://shouldiprefix.com) for helping me find which CSS properties required browser prefixes.
+- [A11Y Project](https://www.a11yproject.com) for providing guidelines for accessibiliy.
+- [Fontawesom](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) for providing screen reader guidelines for user with their icons.
+- My tutor Adegbenga Adeye for his great help and guidance throughout the project.

@@ -67,7 +67,7 @@ I carried out usability tests based on the needs of the users in my user stories
 
 > As a user, I want the website to give me a feel for the venue and convince me to visit by eliciting an emotional response through powerful and compelling content.
 
-The user sees the venue branding straight away, both on desktop and mobile, and is welcomed with the venue's "elevator pitch" on the carousel. The colourful graffiti photo of Jimi Hendrix is bold, eye-catching and relevant the theme of the venue.
+The user sees the venue branding straight away, both on desktop and mobile, and is welcomed with the venue's 'elevator pitch' on the carousel. The colourful graffiti photo of Jimi Hendrix is bold, eye-catching and relevant the theme of the venue.
 
 !["What the user first sees when accessing the site."](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/user-story-1-1.png)
 
@@ -75,7 +75,7 @@ Information is then progressively disclosed in manageable portions through the c
 
 !["As the user progresses down to see photographs."](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/user-story-1-2.png)
 
-The simple colour scheme of the site and the use of empty space allows for the content to take center stage have more of an impact in each section. 
+The simple colour scheme of the site and the use of empty space allows for the content to take center stage and have a greater impact in each section. 
 
 !["The user scrolls through the text-based content of the page."](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/user-story-1-3.gif)
 
@@ -83,13 +83,13 @@ The simple colour scheme of the site and the use of empty space allows for the c
 
 > As a user, I want to be able to easily find information I require for my visit, such as opening times, contact details, live music information and cafe menu items.
 
-The main navigation of the site is always available to the user, either through the "burger" navbar button or stuck to the top of the viewport on large screens. Therefore, the user can always navigate to the information they require. The navigation links take the user to the section of interest clearly described in the link itself and users are therefore not met with information they did not need. The section headings in the site make it clear to the user where they currently are in the site and the ordering of the links in the navbar reflect the order of sections on the page.
+The main navigation of the site is always available to the user, either through the 'burger' navbar button or stuck to the top of the viewport on large screens. Therefore, the user can always navigate to the information they require. The navigation links take the user to the section of interest clearly described in the link itself and users are therefore not met with information they did not require/expect. The section headings in the site make it clear to the user where they currently are and the ordering of the links in the navbar reflect the order of sections on the page.
 
 !["A user visits the site looking for contact details."](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/user-story-2.gif)
 
 ## Responsiveness
 
-To test the responsiveness of the site, I used the Google Chrome Developer Tools on the 'Responsive' setting to test in a content-driven rather than device-driven way. For the below tests I resized the window from 2800px wide to 250px.
+To test the responsiveness of the site, I used the Google Chrome Developer Tools on the 'Responsive' setting to test in a content-driven rather than device-driven way. For the below tests I gradually resized the window from 2800px wide to 250px.
 
 | Component | Intended Result | Works as intended? | Fix |
 | --------- | --------------- | ------------------ | --- |
