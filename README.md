@@ -164,13 +164,13 @@ I deployed my site through GitHub pages. The steps I took were as follows:
 5. Copied the code on the next page and pasted it into the terminal, pushing the local repository to Github.
 6. In the settings tab on the Github repository, I scrolled down to GitHub Pages, clicked on the master branch and recieved a [live URL](https://github.com/tobyjbrown/jimis-cafe-and-music/blob/master/assets/images/write-up/logo-main.png) for the site.
 7. To run this project on your local machine, follow these steps:
-    **Step 1**: Go to the repository: https://github.com/tobyjbrown/jimis-cafe-and-music
-    **Step 2**: Click on the green button that says "Clone or download".
-    **Step 3**: On the dropdown menu, click the clipboard icon to the right of the URL to copy it.
-    **Step 4**: Open the terminal/command line on your system.
-    **Step 5**: Set your current working directory to the location you wish to store the repository in.
-    **Step 6**: Type `git clone`, and then paste the URL you copied in Step 3.
-    **Step 7**: Press **Enter**. Your local clone of the repository will be created.
+    - **Step 1**: Go to the repository: https://github.com/tobyjbrown/jimis-cafe-and-music
+    - **Step 2**: Click on the green button that says "Clone or download".
+    - **Step 3**: On the dropdown menu, click the clipboard icon to the right of the URL to copy it.
+    - **Step 4**: Open the terminal/command line on your system.
+    - **Step 5**: Set your current working directory to the location you wish to store the repository in.
+    - **Step 6**: Type `git clone`, and then paste the URL you copied in Step 3.
+    - **Step 7**: Press **Enter**. Your local clone of the repository will be created.
 
 ## Credits
 
