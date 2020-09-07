@@ -109,7 +109,7 @@ For the main body and `h3` elements of the site I used 'Merriweather', a highly 
 
 ## Technologies and Libraries
 
-1. [!["HTML5 Badge"](https://img.shields.io/badge/HTML-5-E34F26?logo=html5)]
+1. !["HTML5 Badge"](https://img.shields.io/badge/HTML-5-E34F26?logo=html5)
 - [HTML5](https://www.w3.org/TR/html52/introduction.html#introduction) - A markup language used to structure and present the content on the site.
 2. !["CSS Badge"](https://img.shields.io/badge/CSS-3-1572B6?logo=css3)
 - [CSS](https://www.w3.org/standards/webdesign/htmlcss) - Used to create stylesheets that describe the presentation of the content on the site.
