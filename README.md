@@ -133,7 +133,7 @@ For the main body and `h3` elements of the site I used 'Merriweather', a highly 
 - [W3C HTML Validation Service](https://validator.w3.org) - Used to validate my HTML code in the testing process.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate my CSS code in the testing process.
 - [GIMP](https://www.gimp.org) - Used to edit and reduce the filesizes of the site's images.
-- [Inkscape](https://inkscape.org) - Used to create the site's main logo and tagline PNG (which was swapped for HTML/CSS during the development process, but can be seen at the top of this readme) and for editing the stock SVG Cafe menu template.
+- [Inkscape](https://inkscape.org) - Used to create the site's main logo and tagline PNG (which was swapped for HTML/CSS during the development process) and for editing the stock SVG Cafe menu template.
 - [Balsamiq](https://balsamiq.com) - Used to create the wireframes during the Skeleton phase of UX design.
 - [VS Code](https://code.visualstudio.com) - My IDE of choice, used with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for instant feedback during development.
 - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - For testing the responsiveness of my site and used to find the breakpoints for my media queries.
